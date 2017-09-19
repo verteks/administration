@@ -1,0 +1,51 @@
+netstat -o -p TCP 
+
+Активные подключения
+
+  Имя    Локальный адрес        Внешний адрес          Состояние       PID
+  TCP    127.0.0.1:1110         DESKTOP-98I0I50:62216  ESTABLISHED     3040
+  TCP    127.0.0.1:1110         DESKTOP-98I0I50:62218  ESTABLISHED     3040
+  TCP    127.0.0.1:1110         DESKTOP-98I0I50:63819  ESTABLISHED     3040
+  TCP    127.0.0.1:1110         DESKTOP-98I0I50:63930  ESTABLISHED     3040
+  TCP    127.0.0.1:1110         DESKTOP-98I0I50:64411  ESTABLISHED     3040
+  TCP    127.0.0.1:1110         DESKTOP-98I0I50:64413  TIME_WAIT       0
+  TCP    127.0.0.1:1110         DESKTOP-98I0I50:64492  ESTABLISHED     3040
+  TCP    127.0.0.1:1110         DESKTOP-98I0I50:64495  ESTABLISHED     3040
+  TCP    127.0.0.1:62216        DESKTOP-98I0I50:nfsd-status  ESTABLISHED     4412
+  TCP    127.0.0.1:62218        DESKTOP-98I0I50:nfsd-status  ESTABLISHED     4412
+  TCP    127.0.0.1:63819        DESKTOP-98I0I50:nfsd-status  ESTABLISHED     4412
+  TCP    127.0.0.1:63930        DESKTOP-98I0I50:nfsd-status  ESTABLISHED     7524
+  TCP    127.0.0.1:64398        DESKTOP-98I0I50:nfsd-status  TIME_WAIT       0
+  TCP    127.0.0.1:64411        DESKTOP-98I0I50:nfsd-status  ESTABLISHED     1064
+  TCP    127.0.0.1:64492        DESKTOP-98I0I50:nfsd-status  ESTABLISHED     2844
+  TCP    127.0.0.1:64495        DESKTOP-98I0I50:nfsd-status  ESTABLISHED     1064
+  TCP    172.16.11.4:62217      proxy:3128             ESTABLISHED     3040
+  TCP    172.16.11.4:62219      proxy:3128             ESTABLISHED     3040
+  TCP    172.16.11.4:63820      proxy:3128             ESTABLISHED     3040
+  TCP    172.16.11.4:63931      proxy:3128             ESTABLISHED     3040
+  TCP    172.16.11.4:64399      proxy:3128             TIME_WAIT       0
+  TCP    172.16.11.4:64412      proxy:3128             ESTABLISHED     3040
+  TCP    172.16.11.4:64421      RTRV-PC-HP:wsd         TIME_WAIT       0
+  TCP    172.16.11.4:64424      DESKTOP-5GLHIR0:wsd    TIME_WAIT       0
+  TCP    172.16.11.4:64426      DESKTOP-5GLHIR0:wsd    TIME_WAIT       0
+  TCP    172.16.11.4:64428      DESKTOP-5GLHIR0:wsd    TIME_WAIT       0
+  TCP    172.16.11.4:64429      DESKTOP-98I0I50:wsd    TIME_WAIT       0
+  TCP    172.16.11.4:64432      DESKTOP-98I0I50:wsd    TIME_WAIT       0
+  TCP    172.16.11.4:64436      DESKTOP-98I0I50:wsd    TIME_WAIT       0
+  TCP    172.16.11.4:64476      DESKTOP-98I0I50:wsd    TIME_WAIT       0
+  TCP    172.16.11.4:64478      DESKTOP-98I0I50:wsd    TIME_WAIT       0
+  TCP    172.16.11.4:64481      DESKTOP-5GLHIR0:wsd    TIME_WAIT       0
+  TCP    172.16.11.4:64483      DESKTOP-98I0I50:wsd    TIME_WAIT       0
+  TCP    172.16.11.4:64485      DESKTOP-98I0I50:wsd    TIME_WAIT       0
+  TCP    172.16.11.4:64493      proxy:3128             ESTABLISHED     3040
+  TCP    172.16.11.4:64496      proxy:3128             ESTABLISHED     3040
+  TCP    172.16.11.4:64498      67.26.13.254:http      SYN_SENT        3040
+  TCP    172.16.11.4:64502      67.26.13.254:http      SYN_SENT        3040
+  TCP    172.16.11.4:64503      67.26.13.254:http      SYN_SENT        3040
+  TCP    172.16.11.4:64504      67.26.13.254:http      SYN_SENT        3040
+  TCP    172.16.11.4:64506      2.17.213.219:https     SYN_SENT        3040
+  TCP    172.16.11.4:64508      k02a004w01:wsd         TIME_WAIT       0
+  TCP    172.16.11.4:64510      k02a004w01:wsd         TIME_WAIT       0
+  TCP    172.16.11.4:64512      2.17.213.219:https     SYN_SENT        3040
+  TCP    172.16.11.4:64514      k02a004w01:wsd         TIME_WAIT       0
+  TCP    172.16.11.4:64516      131.253.61.100:https   SYN_SENT        3040
